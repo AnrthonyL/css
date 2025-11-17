@@ -1,0 +1,132 @@
+ h1{
+    color:#C0C0C0;
+    size: 200px;
+    background-color: rgb(69, 66, 228);
+    font-family:unifrakturcook;
+}
+
+.strawberry{
+    background-image:url(img/strawberry.jpg);
+    color:rgb(255, 255, 255);
+    width: 250px;
+    border: 10px ridge green;
+    margin: auto;
+}
+.banana{
+    margin-top:10px;
+    background-image:url(img/banana.jpg);
+    color:rgb(7, 41, 233);
+ width: 250px;
+    border: 10px double rgb(4, 0, 247);
+    margin:auto;
+}
+
+
+
+
+.container1 {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.container1 img {
+  width: 100%;
+  height: auto;
+}
+
+.container1 .btn {
+border: 2px solid #5a06a8;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-family:UnifrakturCook
+}
+
+.container1 .btn:hover {
+   background-color: #3e00cf;
+  color: rgb(221, 9, 9);
+}
+    .unifrakturcook-bold {
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+.page2 {
+background-image: url(img/veggys.jpg);
+ width: 50%;
+ font-family: "ole";
+ color:whitesmoke;
+ font-size: 35px;
+border-style:dashed;
+margin-top:left;
+}
+.container1 .btn{
+  border: 2px solid #5a06a8;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-family:UnifrakturCook
+}
+.page3{
+  background-color: #7900eb;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
